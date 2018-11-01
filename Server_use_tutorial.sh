@@ -10,6 +10,8 @@ ________________________________________________________________________________
 /data/users_data/Yournamehere
 ## The other folders are mainly for installing things.
 
+### IMPORTANT: The server is not backed up, so make sure you use it for your analysis but save your files somewhere else.
+
 ## You can find example scripts to help you get started in:
 
 /data/users_data/Scripts_for_all
