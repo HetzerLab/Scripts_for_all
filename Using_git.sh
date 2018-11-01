@@ -14,15 +14,23 @@ git add .
 
 # 5. Commit the files that you've staged in your local repository.
 
-git commit -m "First commit"
+git commit -m "New commit 2"
 
 # 6. At the top of your GitHub repository's Quick Setup page, click to copy the remote repository URL. In Terminal, add the URL for the remote repository where your local repository will be pushed.
 
-git remote add origin remote repository URL
-
-git remote -v
-# Verifies the new remote URL
+git remote add origin https://github.com/HetzerLab/Scripts_for_all.git
 
 # 7. Push the changes in your local repository to GitHub.
 
 git push -u origin master
+
+# Repeat steps 5 and 7 whenever you make changes to your files and want to send them to github. 
+# If you create new files you want to send over, repeat from 4, 5 and 7.
+
+# If you or someone else made changes to a file uploaded that to github, you should grab the latest changes. For that use:
+
+git fetch origin master
+
+### Cool github cheatsheet: https://education.github.com/git-cheat-sheet-education.pdf
+
+
