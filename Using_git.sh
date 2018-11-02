@@ -24,8 +24,7 @@ git remote add origin https://github.com/HetzerLab/Scripts_for_all.git
 
 git push -u origin master
 
-# Repeat steps 5 and 7 whenever you make changes to your files and want to send them to github. 
-# If you create new files you want to send over, repeat from 4, 5 and 7.
+# Repeat steps 4, 5 and 7 whenever you make changes to your files, or add new files and want to send them to github. 
 
 # If you or someone else made changes to a file uploaded that to github, you should grab the latest changes. For that use:
 
@@ -40,3 +39,13 @@ git clone https://github.com/HetzerLab/Scripts_for_all.git
 ## This is an example, the url comes from github
 
 ## Once the repository has been cloned, you can make changes and commit those too as described in the steps above.
+
+### Most often used:
+
+# Before you start writting new things:
+git fetch origin master
+
+# As you make changes:
+git add .
+git commit -m "some description of the commit"
+git push origin master
