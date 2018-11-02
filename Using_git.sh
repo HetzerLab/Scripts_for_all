@@ -33,4 +33,8 @@ git fetch origin master
 
 ### Cool github cheatsheet: https://education.github.com/git-cheat-sheet-education.pdf
 
+# If you'd like to copy a repository that is on github to your computer:
+
+git clone https://github.com/HetzerLab/Scripts_for_all.git
+
 
