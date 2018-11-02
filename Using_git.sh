@@ -28,7 +28,7 @@ git push -u origin master
 
 # If you or someone else made changes to a file uploaded that to github, you should grab the latest changes. For that use:
 
-git fetch origin master
+git pull origin master
 
 ### Cool github cheatsheet: https://education.github.com/git-cheat-sheet-education.pdf
 
@@ -43,7 +43,7 @@ git clone https://github.com/HetzerLab/Scripts_for_all.git
 ### Most often used:
 
 # Before you start writting new things:
-git fetch origin master
+git pull origin master
 
 # As you make changes:
 git add .
