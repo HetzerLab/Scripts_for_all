@@ -37,4 +37,6 @@ git fetch origin master
 
 git clone https://github.com/HetzerLab/Scripts_for_all.git
 
+## This is an example, the url comes from github
 
+## Once the repository has been cloned, you can make changes and commit those too as described in the steps above.
