@@ -70,6 +70,13 @@ cp filename /your/to/folder/
 ## To copy files from a website
 wget yoururlhere.com
 
+## If you plan to turn off your computer while the analysis runs on the server, start your session with screen
+
+screen
+
+## When you return you can get back to it:
+
+screen -rd
 
 
 
